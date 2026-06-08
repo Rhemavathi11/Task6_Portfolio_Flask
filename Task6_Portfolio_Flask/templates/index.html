@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hemavathi Portfolio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <header>
+        <h1>Hemavathi</h1>
+        <p>Computer Science and Engineering Student</p>
+        <p>Python | Cloud Computing | DevOps Enthusiast</p>
+    </header>
+
+    <section>
+        <h2>About Me</h2>
+        <p>
+            Hello! I am Hemavathi, a Computer Science and Engineering student.
+            I am passionate about Python programming, Cloud Computing, AWS, and DevOps.
+            I enjoy learning new technologies and building practical projects to improve my skills.
+        </p>
+    </section>
+
+    <section>
+        <h2>Skills</h2>
+        <ul>
+            <li>Python Programming</li>
+            <li>Flask</li>
+            <li>HTML & CSS</li>
+            <li>Git & GitHub</li>
+            <li>AWS Cloud Basics</li>
+            <li>Linux Basics</li>
+            <li>Networking Fundamentals</li>
+            <li>SQL Basics</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Projects</h2>
+        <ul>
+            <li>Calculator Application</li>
+            <li>Console Based To-Do List App</li>
+            <li>News Headlines Web Scraper</li>
+            <li>Flask REST API</li>
+            <li>CSV Data Analysis Project</li>
+            <li>Portfolio Website using Flask</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Education</h2>
+        <p>
+            B.E. Computer Science and Engineering<br>
+            Adhiyamaan College of Engineering, Hosur
+        </p>
+    </section>
+
+    <section>
+        <h2>Contact Me</h2>
+
+        <form action="/contact" method="POST">
+
+            <input type="text"
+                   name="name"
+                   placeholder="Enter Your Name"
+                   required>
+
+            <input type="email"
+                   name="email"
+                   placeholder="Enter Your Email"
+                   required>
+
+            <textarea name="message"
+                      rows="5"
+                      placeholder="Enter Your Message"
+                      required></textarea>
+
+            <button type="submit">Send Message</button>
+
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2026 Hemavathi | Portfolio Website using Flask</p>
+    </footer>
+
+</body>
+</html>
